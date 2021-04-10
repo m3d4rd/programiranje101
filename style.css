@@ -1,0 +1,55 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	
+}
+
+.header {
+	display: flex;	
+}
+
+.header-text {
+	padding-right: 10px;
+	padding-right: 10px;
+}
+
+.naslov {
+	color:#46d10f 
+}
+
+
+.menu {
+	margin: 30px;
+}
+
+
+.menu-link a {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #4287f5;
+	padding: 10px;
+	border: solid;
+	border-color: #4287f5;
+	border-radius:10px;
+	font-weight: bold;
+}
+
+.menu-link a:hover {
+background-color:#5796fa;
+border-color:#5796fa;
+}
+
+.paragraph-pink {
+	color: #db0066; 
+	font-size: 30px 
+}
+	
+.paragraph-aquamarine {
+	color: #275b6e 
+}
+
+.footer {
+margin-top: auto;
+}
+
