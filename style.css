@@ -35,6 +35,11 @@
 	font-weight: bold;
 }
 
+.red-link a {
+	background-color: #bd1313;
+	border-color: #bd1313;
+}
+
 .menu-link a:hover {
 background-color:#5796fa;
 border-color:#5796fa;
