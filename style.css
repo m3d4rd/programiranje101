@@ -41,17 +41,24 @@
 }
 
 .menu-link a:hover {
-background-color:#5796fa;
+	background-color:#5796fa;
 border-color:#5796fa;
 }
 
 .paragraph-pink {
-	color: #db0066; 
-	font-size: 30px 
+color: #db0066; 
+font-size: 30px 
 }
-	
+
+
+
+.paragraph-pink::selection {
+	background-color:  #eb4034;
+	color: #000000;
+}
+
 .paragraph-aquamarine {
-	color: #275b6e 
+color: #275b6e 
 }
 
 .footer {
