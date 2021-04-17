@@ -1,3 +1,14 @@
+body {
+	margin: 0 auto;
+	font-family: Roboto;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+
 .container {
 	display: flex;
 	flex-direction: column;
@@ -6,12 +17,20 @@
 }
 
 .header {
-	display: flex;	
+	display: flex;
+	background-color: #f6fecd;
+	justify-content: space-between;
 }
 
-.header-text {
-	padding-right: 10px;
-	padding-right: 10px;
+.header-text a {
+	padding-left: 20px;
+	color: #657512;
+	text-decoration: none;
+}
+
+
+.header-text a:hover {
+	text-decoration: underline;
 }
 
 .naslov {
@@ -19,12 +38,37 @@
 }
 
 
-.menu {
-	margin: 30px;
+.main-menu {
+	display: flex;
+}
+
+.main-menu-item {
+	background-color: #f6fecd;
+	padding: 30px;
+	cursor: pointer;
+	
+}
+
+.main-menu-item a {
+	color: #657512;
+}
+
+.main-menu-item:hover a {
+	color: #FFFFFF;
+}
+
+.main-menu-item:hover {
+	background-color: #657512;
+	
+	padding: 30px;
 }
 
 
-.menu-link a {
+.user-menu {
+}
+
+
+.body-menu-link a {
 	color: #ffffff;
 	text-decoration: none;
 	background-color: #4287f5;
@@ -40,14 +84,14 @@
 	border-color: #bd1313;
 }
 
-.menu-link a:hover {
+.body-menu-link a:hover {
 	background-color:#5796fa;
-border-color:#5796fa;
+	border-color:#5796fa;
 }
 
 .paragraph-pink {
-color: #db0066; 
-font-size: 30px 
+	color: #db0066; 
+	font-size: 30px 
 }
 
 
@@ -58,10 +102,14 @@ font-size: 30px
 }
 
 .paragraph-aquamarine {
-color: #275b6e 
+	color: #275b6e 
+}
+
+.slika-jezek {
+	width: 20%;
 }
 
 .footer {
-margin-top: auto;
+	margin-top: auto;
 }
 
