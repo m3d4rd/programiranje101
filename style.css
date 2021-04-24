@@ -1,3 +1,12 @@
+/* 
+	rdeča 
+	#cc1508 
+	
+	siva
+	#4a4a4a;
+	
+*/
+
 body {
 	margin: 0 auto;
 	font-family: Roboto;
@@ -13,18 +22,19 @@ a {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
+	background-color: #000000;
 	
 }
 
 .header {
 	display: flex;
-	background-color: #f6fecd;
+	background-color: #cc1508;
 	justify-content: space-between;
 }
 
 .header-text a {
 	padding-left: 20px;
-	color: #657512;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -43,22 +53,25 @@ a {
 }
 
 .main-menu-item {
-	background-color: #f6fecd;
+	background-color: #cc1508;
 	padding: 30px;
 	cursor: pointer;
+	border: 5px solid #cc1508;
+	font-weight: bold;
 	
 }
 
 .main-menu-item a {
-	color: #657512;
+	color: #000000;
 }
 
 .main-menu-item:hover a {
-	color: #FFFFFF;
+	color: #cc1508;
 }
 
 .main-menu-item:hover {
-	background-color: #657512;
+	background-color: #000000;
+	border: 5px solid #cc1508;
 	
 	padding: 30px;
 }
@@ -67,6 +80,18 @@ a {
 .user-menu {
 }
 
+.search-bar {
+	background-color: #4a4a4a;	
+	display: flex;
+	flex-direction: column;
+	height: 50px;
+	margin: 0px auto;
+	width: 100%;
+}
+
+.search-container {
+	
+}
 
 .body-menu-link a {
 	color: #ffffff;
@@ -105,11 +130,28 @@ a {
 	color: #275b6e 
 }
 
-.slika-jezek {
-	width: 20%;
+.movie-list {
+	
+	padding-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	
+} 
+
+.movie-list-item {
+	padding: 10px;
+	width: 18%;
 }
 
 .footer {
 	margin-top: auto;
+	background-color: #4a4a4a;
+	height: 50px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.footer-text {
+	color: #ffffff;
 }
 
