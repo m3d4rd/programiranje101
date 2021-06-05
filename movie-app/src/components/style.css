@@ -1,0 +1,156 @@
+/*
+	rdeča
+	#cc1508
+
+	siva
+	#4a4a4a;
+
+*/
+
+body {
+    margin: 0 auto;
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000000;
+
+}
+
+.header {
+    display: flex;
+    background-color: #cc1508;
+    justify-content: space-between;
+}
+
+.header-text a {
+    padding-left: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.header-text a:hover {
+    text-decoration: underline;
+}
+
+.naslov {
+    color:#46d10f
+}
+
+
+.main-menu {
+    display: flex;
+}
+
+.main-menu-item {
+    background-color: #cc1508;
+    padding: 30px;
+    cursor: pointer;
+    border: 5px solid #cc1508;
+    font-weight: bold;
+
+}
+
+.main-menu-item span,a {
+    color: #000000;
+}
+
+.main-menu-item:hover a {
+    color: #cc1508;
+}
+
+.main-menu-item:hover {
+    background-color: #000000;
+    border: 5px solid #cc1508;
+
+    padding: 30px;
+}
+
+
+.user-menu {
+}
+
+.search-bar {
+    background-color: #4a4a4a;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.search-container {
+
+}
+
+.body-menu-link a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #4287f5;
+    padding: 10px;
+    border: solid;
+    border-color: #4287f5;
+    border-radius:10px;
+    font-weight: bold;
+}
+
+.red-link a {
+    background-color: #bd1313;
+    border-color: #bd1313;
+}
+
+.body-menu-link a:hover {
+    background-color:#5796fa;
+    border-color:#5796fa;
+}
+
+.paragraph-pink {
+    color: #db0066;
+    font-size: 30px
+}
+
+
+
+.paragraph-pink::selection {
+    background-color:  #eb4034;
+    color: #000000;
+}
+
+.paragraph-aquamarine {
+    color: #275b6e
+}
+
+.movie-list {
+
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.movie-list-item {
+    padding: 10px;
+    width: 18%;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #4a4a4a;
+    height: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-text {
+    color: #ffffff;
+}
